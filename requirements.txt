@@ -1,0 +1,31 @@
+# Core libraries
+numpy>=1.20.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+torch>=1.10.0
+transformers>=4.15.0
+
+# NLP and biomedical libraries
+whisper>=1.0.0  # For speech-to-text conversion
+spacy>=3.2.0  # For NER
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz
+
+# Biomedical NER libraries
+biobert-v1.1>=0.1.0  # BioBERT for biomedical entity recognition
+dmis-lab-biobert>=0.1.0  # Enhanced biomedical NER
+
+# Data processing
+pyarrow>=6.0.0
+openpyxl>=3.0.9
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.2
+
+# API and web interface
+fastapi>=0.70.0
+uvicorn>=0.15.0
+pydantic>=1.8.2
+
+# Testing
+pytest>=6.2.5

@@ -1,0 +1,58 @@
+# Dataset directories
+datasets/
+data/
+raw_data/
+processed_data/
+training_data/
+test_data/
+validation_data/
+model/severity_model.pkl
+
+# Common dataset file formats
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.xml
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+
+# Large binary files
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# Model files (often large)
+*.model
+*.bin
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.pb
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
